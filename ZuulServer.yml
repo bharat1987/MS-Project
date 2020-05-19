@@ -1,1 +1,10 @@
+zuul.prefix=/MS-Project
+zuul.routes.login.path=/login/**/
+zuul.routes.login.strip-prefix=false
+zuul.routes.login.service-id=LoginMS
 
+zuul.routes.register.path=/register/**/
+zuul.routes.register.strip-prefix=false
+zuul.routes.register.service-id=RegisterMS
+
+server.port:5000
