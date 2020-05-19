@@ -4,3 +4,6 @@ eureka:
     register-with-eureka: false
     service-url.defaultZone: http://localhost:2222/eureka
 
+server:
+  port: 2222
+
