@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: root
-    password: {cipher}574d82cae292c839b89b781ac4206260cea181abff47bac463b0d052496663e8
+    password: '{cipher}574d82cae292c839b89b781ac4206260cea181abff47bac463b0d052496663e8'
     
   jpa:
       show-sql: true
