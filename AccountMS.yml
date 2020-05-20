@@ -3,4 +3,4 @@ spring:
     url: jdbc:mysql://localhost:3306/ms-account
     
 server:
-  port: 5003
+  port: 5004
