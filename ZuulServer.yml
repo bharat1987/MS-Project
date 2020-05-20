@@ -7,4 +7,8 @@ zuul.routes.register.path=/register/**/
 zuul.routes.register.strip-prefix=false
 zuul.routes.register.service-id=RegisterMS
 
+zuul.routes.web.path=/web/**/
+zuul.routes.web.strip-prefix=false
+zuul.routes.web.service-id=WebMS
+
 server.port:5000
